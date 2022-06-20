@@ -1,0 +1,22 @@
+uuid: 6255f18a-b76e-42c4-b8c1-18d76511e4a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - danland
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: danland_breadcrumbs
+theme: danland
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

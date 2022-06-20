@@ -1,0 +1,22 @@
+uuid: 83eb50ed-1830-440c-a017-0e2f80f3c005
+langcode: en
+status: true
+dependencies:
+  theme:
+    - danland
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: danland_primary_local_tasks
+theme: danland
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

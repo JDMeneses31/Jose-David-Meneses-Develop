@@ -1,0 +1,25 @@
+uuid: 9948c993-19bd-44d4-9b62-f264c280ff56
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.kodffe_quito_
+  module:
+    - webform
+  theme:
+    - olivero
+id: webform_2
+theme: olivero
+region: content_above
+weight: -4
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  label_display: visible
+  provider: webform
+  webform_id: kodffe_quito_
+  default_data: ''
+  redirect: false
+visibility: {  }
