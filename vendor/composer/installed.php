@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '59c5a0028bc1a65ec2f116f292fde551411e1484',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -231,6 +231,15 @@
             'replaced' => array(
                 0 => '9.4.0',
             ),
+        ),
+        'drupal/bootstrap' => array(
+            'pretty_version' => '3.25.0',
+            'version' => '3.25.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/bootstrap',
+            'aliases' => array(),
+            'reference' => '8.x-3.25',
+            'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
             'dev_requirement' => false,
@@ -647,12 +656,12 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '59c5a0028bc1a65ec2f116f292fde551411e1484',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
